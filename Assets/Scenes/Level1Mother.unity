@@ -1461,6 +1461,10 @@ PrefabInstance:
       value: Rock-1
       objectReference: {fileID: 0}
     - target: {fileID: 419074, guid: 21fe361e82c08e54b8a267303d3f0fc5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.56207
+      objectReference: {fileID: 0}
+    - target: {fileID: 419074, guid: 21fe361e82c08e54b8a267303d3f0fc5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 57.67
       objectReference: {fileID: 0}
@@ -2050,13 +2054,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071605975}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.005053192, z: -0, w: 0.99998724}
-  m_LocalPosition: {x: -0.034270767, y: 2.602, z: -5.060002}
+  m_LocalRotation: {x: 0.0688338, y: 0.0050411806, z: -0.0003478191, w: 0.9976154}
+  m_LocalPosition: {x: -0.04, y: 3.6, z: -5.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 838361593}
-  m_LocalEulerAnglesHint: {x: 0, y: -89.421, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.894, y: 0.579, z: 0}
 --- !u!1 &1095402492
 GameObject:
   m_ObjectHideFlags: 0
