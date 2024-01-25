@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
 
         moveVelocity.x = Input.GetAxis("Horizontal");
         characterController.SimpleMove(moveVelocity);
-        /*
+        
         if (Input.GetKeyDown(KeyCode.D))
         {
             desiredLane++;
@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
         }
 
         transform.position = Vector3.Lerp(transform.position, targetPosition, 80 * Time.deltaTime);
-        */
+        
     }
 
     private void Jump()
