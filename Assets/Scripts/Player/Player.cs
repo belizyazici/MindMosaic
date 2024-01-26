@@ -9,10 +9,10 @@ public class Player : MonoBehaviour
     public Animator animator;
     public float runSpeed = 2.0f;
     public float jumpSpeed = 2.0f;
-    private Rigidbody rb;
+   
     bool isGrounded;
     private float verticalSpeed;
-    private float gravity = 9.81f;
+    public float gravity = 9.81f;
     private CharacterController characterController;
 
     private int desiredLane = 1; // 0- left 1 - middle 2 -right
@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     {
         animator = transform.GetComponent<Animator>();
         characterController = transform.GetComponent<CharacterController>();
-        rb = transform.GetComponent<Rigidbody>();
+        
         
     }
 
