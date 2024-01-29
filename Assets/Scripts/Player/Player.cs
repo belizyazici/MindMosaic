@@ -36,8 +36,6 @@ public class Player : MonoBehaviour
         
         Vector3 moveVelocity = Vector3.zero;
 
-        moveVelocity.x = Input.GetAxis("Horizontal");
-        characterController.SimpleMove(moveVelocity);
         
         if (Input.GetKeyDown(KeyCode.D))
         {
@@ -67,7 +65,7 @@ public class Player : MonoBehaviour
             targetPosition += Vector3.right * laneDistance;
         }
 
-        transform.position = Vector3.Lerp(transform.position, targetPosition, 80 * Time.deltaTime);
+        characterController.Move(Vector3.Lerp(transform.position, targetPosition, -80 * Time.deltaTime) - transform.position);
         
     }
 
@@ -93,9 +91,4 @@ public class Player : MonoBehaviour
   
     }
 
-    
-
-    
-
-    
 }

@@ -12,6 +12,8 @@ public class ClickButtons : MonoBehaviour
     public GameObject pausePanel;
     public Button pauseButton;
     public Button continueButton;
+    public Button backButton;
+    public Button forthButton;
     void Start()
     {
         Button t_btn = tryAgainButton.GetComponent<Button>();
