@@ -15,6 +15,9 @@ public class Player : MonoBehaviour
     public float gravity = 9.81f;
     private CharacterController characterController;
 
+    [SerializeField] private Transform _leftTransform;
+    [SerializeField] private Transform _rightTransform;
+
     private int desiredLane = 1; // 0- left 1 - middle 2 -right
     public float laneDistance = 4.0f;
 
@@ -34,24 +37,28 @@ public class Player : MonoBehaviour
         characterController.Move(transform.forward * runSpeed * Time.deltaTime);
         Jump();
         
-        Vector3 moveVelocity = Vector3.zero;
-
-        
+                
         if (Input.GetKeyDown(KeyCode.D))
         {
+            Debug.Log($"DesiredLane: {desiredLane}");
             desiredLane++;
+            Debug.Log($"DesiredLane after increment: {desiredLane}");
             if (desiredLane == 3)
             {
                 desiredLane = 2;
+                Debug.Log($"DesiredLane after 3: {desiredLane}");
             }
         }
 
         if (Input.GetKeyDown(KeyCode.A))
         {
+            Debug.Log($"DesiredLane: {desiredLane}");
             desiredLane--;
+            Debug.Log($"DesiredLane after decrement: {desiredLane}");
             if (desiredLane == -1)
             {
                 desiredLane = 0;
+                Debug.Log($"DesiredLane after -1: {desiredLane}");
             }
         }
 
@@ -59,13 +66,17 @@ public class Player : MonoBehaviour
 
         if (desiredLane == 0)
         {
-            targetPosition += Vector3.left * laneDistance;
+            //targetPosition += Vector3.back * laneDistance;
+            targetPosition = _leftTransform.position;
+            
         }else  if (desiredLane == 2)
         {
-            targetPosition += Vector3.right * laneDistance;
+            //targetPosition += Vector3.forward * laneDistance;
+            targetPosition = _rightTransform.position;
+
         }
 
-        characterController.Move(Vector3.Lerp(transform.position, targetPosition, -80 * Time.deltaTime) - transform.position);
+        characterController.Move(Vector3.Lerp(transform.position, targetPosition, 80 * Time.deltaTime)- transform.position);
         
     }
 
