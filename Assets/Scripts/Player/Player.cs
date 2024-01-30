@@ -33,52 +33,45 @@ public class Player : MonoBehaviour
     }
 
     void Update()
-    {
-        characterController.Move(transform.forward * runSpeed * Time.deltaTime);
-        Jump();
-        
-                
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            Debug.Log($"DesiredLane: {desiredLane}");
-            desiredLane++;
-            Debug.Log($"DesiredLane after increment: {desiredLane}");
-            if (desiredLane == 3)
-            {
-                desiredLane = 2;
-                Debug.Log($"DesiredLane after 3: {desiredLane}");
-            }
-        }
-
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            Debug.Log($"DesiredLane: {desiredLane}");
-            desiredLane--;
-            Debug.Log($"DesiredLane after decrement: {desiredLane}");
-            if (desiredLane == -1)
-            {
-                desiredLane = 0;
-                Debug.Log($"DesiredLane after -1: {desiredLane}");
-            }
-        }
-
-        Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
-
-        if (desiredLane == 0)
-        {
-            //targetPosition += Vector3.back * laneDistance;
-            targetPosition = _leftTransform.position;
-            
-        }else  if (desiredLane == 2)
-        {
-            //targetPosition += Vector3.forward * laneDistance;
-            targetPosition = _rightTransform.position;
-
-        }
-
-        characterController.Move(Vector3.Lerp(transform.position, targetPosition, 80 * Time.deltaTime)- transform.position);
-        
-    }
+    {
+        Jump();
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            Debug.Log($"DesiredLane: {desiredLane}");
+            desiredLane++;
+            Debug.Log($"DesiredLane after increment: {desiredLane}");
+            if (desiredLane == 3)
+            {
+                desiredLane = 2;
+                Debug.Log($"DesiredLane after 3: {desiredLane}");
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            Debug.Log($"DesiredLane: {desiredLane}");
+            desiredLane--;
+            Debug.Log($"DesiredLane after decrement: {desiredLane}");
+            if (desiredLane == -1)
+            {
+                desiredLane = 0;
+                Debug.Log($"DesiredLane after -1: {desiredLane}");
+            }
+        }
+        Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
+        if (desiredLane == 0)
+        {
+            //targetPosition += Vector3.back * laneDistance;
+            targetPosition = _leftTransform.position;
+        }else  if (desiredLane == 2)
+        {
+            //targetPosition += Vector3.forward * laneDistance;
+            targetPosition = _rightTransform.position;
+        }
+        var test = Vector3.Lerp(transform.position, targetPosition, 800 * Time.deltaTime) - transform.position;
+        var pos = new Vector3(transform.forward.x, transform.forward.y, test.z);
+        characterController.Move(pos * runSpeed * Time.deltaTime);
+        //characterController.Move(Vector3.Lerp(transform.position, targetPosition, 80 * Time.deltaTime) - transform.position);
+    }
 
     private void Jump()
     {
