@@ -7,8 +7,8 @@ using UnityEngine.UIElements;
 public class Player : MonoBehaviour
 {
     public Animator animator;
-    public float runSpeed = 2.0f;
-    public float jumpSpeed = 2.0f;
+    public float runSpeed = 7.0f;
+    public float jumpSpeed = 4.0f;
    
     bool isGrounded;
     private float verticalSpeed;
@@ -60,17 +60,15 @@ public class Player : MonoBehaviour
         Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
         if (desiredLane == 0)
         {
-            //targetPosition += Vector3.back * laneDistance;
             targetPosition = _leftTransform.position;
         }else  if (desiredLane == 2)
         {
-            //targetPosition += Vector3.forward * laneDistance;
             targetPosition = _rightTransform.position;
         }
         var test = Vector3.Lerp(transform.position, targetPosition, 800 * Time.deltaTime) - transform.position;
         var pos = new Vector3(transform.forward.x, transform.forward.y, test.z);
         characterController.Move(pos * runSpeed * Time.deltaTime);
-        //characterController.Move(Vector3.Lerp(transform.position, targetPosition, 80 * Time.deltaTime) - transform.position);
+        
     }
 
     private void Jump()
