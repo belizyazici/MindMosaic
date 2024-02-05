@@ -67,6 +67,7 @@ public class ClickButtons : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         victoryPanel.SetActive(false);
         SceneManager.LoadScene(currentSceneIndex + 1);
+        Time.timeScale = 1;
     }
 
 
