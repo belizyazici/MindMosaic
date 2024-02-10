@@ -6553,6 +6553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 144277782}
   - component: {fileID: 144277781}
+  - component: {fileID: 144277783}
   m_Layer: 0
   m_Name: End
   m_TagString: Untagged
@@ -6596,6 +6597,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &144277783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144277780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656f2eaecadb6dc42b48b5f88c014737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  victoryPanel: {fileID: 2090516874}
+  gameOverEndPanel: {fileID: 671349347}
 --- !u!1 &144593180 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 1168e432e0c205345b90c4ec2f307c97, type: 3}
@@ -28679,6 +28694,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 94006623}
   m_SourcePrefab: {fileID: 100100000, guid: 1168e432e0c205345b90c4ec2f307c97, type: 3}
+--- !u!1 &671349347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6425453206978597355, guid: 038c75a5dd55f2446aa64487d02b5952, type: 3}
+  m_PrefabInstance: {fileID: 2016394797}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &672453997
 PrefabInstance:
   m_ObjectHideFlags: 0
