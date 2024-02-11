@@ -16,7 +16,7 @@ public class EndGame6 : MonoBehaviour
         
         if (player != null)
         {
-            if (itemCounter != null && itemCounter.NumberOfItems >= 150)
+            if (itemCounter != null && itemCounter.NumberOfItems >= 145)
             {
                 victoryPanel.SetActive(true);
                 Time.timeScale = 0;
