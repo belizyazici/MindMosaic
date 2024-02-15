@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public class PlayButton : MonoBehaviour
 {
     private bool buttonPressed = false;
-    public AudioClip audioSource;
+    public AudioSource src;
+    public AudioClip buttonClick;
     public Button playButton;
     void Start()
     {
@@ -26,9 +27,10 @@ public class PlayButton : MonoBehaviour
 
     private void PlayButtonClickSound()
     {
-        if (audioSource != null)
+        if (buttonClick != null)
         {
-            AudioSource.PlayClipAtPoint(audioSource, Camera.main.transform.position);
+            src.clip = buttonClick;
+            src.Play();
         }
         else
         {
