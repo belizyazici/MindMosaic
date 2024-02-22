@@ -64,10 +64,15 @@ public class ClickButtons : MonoBehaviour
 
     public void GoToNextLevel() // to go to next level
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         victoryPanel.SetActive(false);
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        SceneManager.LoadScene(nextSceneIndex);
         Time.timeScale = 1;
+
+        if (nextSceneIndex > PlayerPrefs.GetInt("levelAt"))
+        {
+            PlayerPrefs.SetInt("levelAt", nextSceneIndex);            
+        }
     }
 
 

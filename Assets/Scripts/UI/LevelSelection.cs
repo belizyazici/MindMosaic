@@ -8,6 +8,9 @@ public class LevelSelection : MonoBehaviour
     public Button forwardButton;
     public Button backwardsButton;
 
+    public AudioSource src;
+    public AudioClip buttonClick;
+
      void Start()
     {
         int maxAccessibleLevel = PlayerPrefs.GetInt("levelAt", 2);
@@ -42,11 +45,17 @@ public class LevelSelection : MonoBehaviour
 
         if (UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.CompareTag("Forth") && nextSceneIndex < SceneManager.sceneCountInBuildSettings)
         {
+            src.clip = buttonClick;
+            src.Play();
             SceneManager.LoadScene(nextSceneIndex);
         }
         if (UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.CompareTag("Back") && previousSceneIndex >= 0)
         {
+            src.clip = buttonClick;
+            src.Play();
             SceneManager.LoadScene(previousSceneIndex);
         }
     }
+
+    
 }
