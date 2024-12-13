@@ -2,25 +2,25 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public AudioClip backgroundMusic; // Sahnenin müziği
-    public AudioSource audioSource;   // Müzik kaynağı
+    public AudioClip backgroundMusic; 
+    public AudioSource audioSource;  
 
     void Start()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
 
-        // Müzik ayarlarını yap
         audioSource.clip = backgroundMusic;
-        audioSource.loop = true; // Müzik döngüde çalacak
-        audioSource.playOnAwake = false; // Hemen çalmayacak, biz manuel başlatacağız
-        audioSource.volume = 1f; // Müzik sesi (0 ile 1 arasında ayarlanabilir)
+        audioSource.loop = true; 
+        audioSource.playOnAwake = false; 
+        audioSource.volume = 1f; 
 
         if (backgroundMusic != null)
         {
             Debug.Log("Background music is set, now playing.");
             audioSource.mute = false; 
             audioSource.clip = backgroundMusic;
-            audioSource.Play(); // Müzik çalmaya başlasın
+            audioSource.Play();
+            DontDestroyOnLoad(audioSource.gameObject); // AudioSource objesini sahneler arası taşıyoruz
         }
         else
         {
@@ -53,7 +53,7 @@ public class SoundManager : MonoBehaviour
     {
         if (backgroundMusic != null && !audioSource.isPlaying)
         {
-            audioSource.Play(); // Müzik çal
+            audioSource.Play(); 
         }
     }
 
@@ -61,7 +61,7 @@ public class SoundManager : MonoBehaviour
     {
         if (audioSource.isPlaying)
         {
-            audioSource.Stop(); // Müzik durdur
-        }
+            audioSource.Stop(); 
     }
+}
 }

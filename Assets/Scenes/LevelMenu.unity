@@ -431,7 +431,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c408bc6a8fca91c418938aea2ecae830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelButtons: []
+  levelButtons:
+  - {fileID: 635516602}
+  - {fileID: 416107364}
+  - {fileID: 782627535}
+  - {fileID: 1729685977}
+  - {fileID: 925475694}
+  - {fileID: 78967978}
+  - {fileID: 1724474118}
+  - {fileID: 555804938}
+  - {fileID: 1623398478}
   forwardButton: {fileID: 1215662108}
   backwardsButton: {fileID: 636415330}
   src: {fileID: 905390169}
