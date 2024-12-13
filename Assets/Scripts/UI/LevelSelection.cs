@@ -11,7 +11,7 @@ public class LevelSelection : MonoBehaviour
     public AudioSource src;
     public AudioClip buttonClick;
 
-     void Start()
+    void Start()
     {
         int maxAccessibleLevel = PlayerPrefs.GetInt("levelAt", 2);
 
@@ -19,16 +19,35 @@ public class LevelSelection : MonoBehaviour
         {
             levelButtons[i].interactable = (i + 2 <= maxAccessibleLevel);
             int levelIndex = i + 2; 
-            levelButtons[i].onClick.AddListener(() => GoToThatLevel(levelIndex));
+            // Add listener to level buttons and play sound on click
+            levelButtons[i].onClick.AddListener(() => {
+                PlayButtonSound();
+                GoToThatLevel(levelIndex);
+            });
         }
 
-        forwardButton.onClick.AddListener(GoBackOrForth);
-        backwardsButton.onClick.AddListener(GoBackOrForth);
+        forwardButton.onClick.AddListener(() => {
+            PlayButtonSound();
+            GoBackOrForth();
+        });
+        backwardsButton.onClick.AddListener(() => {
+            PlayButtonSound();
+            GoBackOrForth();
+        });
+    }
+
+    private void PlayButtonSound()
+    {
+        if (src != null && buttonClick != null)
+        {
+            src.clip = buttonClick;
+            src.Play();
+        }
     }
 
     private void GoToThatLevel(int levelIndex)
     {
-        int sceneIndex = levelIndex; 
+        int sceneIndex = levelIndex;
 
         if (sceneIndex < SceneManager.sceneCountInBuildSettings)
         {
@@ -45,17 +64,12 @@ public class LevelSelection : MonoBehaviour
 
         if (UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.CompareTag("Forth") && nextSceneIndex < SceneManager.sceneCountInBuildSettings)
         {
-            src.clip = buttonClick;
-            src.Play();
             SceneManager.LoadScene(nextSceneIndex);
         }
         if (UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.CompareTag("Back") && previousSceneIndex >= 0)
         {
-            src.clip = buttonClick;
-            src.Play();
             SceneManager.LoadScene(previousSceneIndex);
         }
     }
-
-    
 }
+

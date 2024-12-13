@@ -434,8 +434,8 @@ MonoBehaviour:
   levelButtons: []
   forwardButton: {fileID: 1215662108}
   backwardsButton: {fileID: 636415330}
-  src: {fileID: 0}
-  buttonClick: {fileID: 0}
+  src: {fileID: 905390169}
+  buttonClick: {fileID: 8300000, guid: 580c45279e0bb9b4fb35e5a97282e87f, type: 3}
 --- !u!1 &364525986
 GameObject:
   m_ObjectHideFlags: 0
