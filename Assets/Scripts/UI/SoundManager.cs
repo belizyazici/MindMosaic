@@ -1,14 +1,19 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
 {
     public AudioClip backgroundMusic; 
     public AudioSource audioSource;  
+    public GameObject muteButton; 
+    public GameObject unmuteButton;
 
     void Start()
     {
-        audioSource = gameObject.AddComponent<AudioSource>();
+        muteButton.GetComponent<Button>().onClick.AddListener(StopMusic);
+        unmuteButton.GetComponent<Button>().onClick.AddListener(PlayMusic);
 
+        audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = backgroundMusic;
         audioSource.loop = true; 
         audioSource.playOnAwake = false; 
@@ -20,40 +25,22 @@ public class SoundManager : MonoBehaviour
             audioSource.mute = false; 
             audioSource.clip = backgroundMusic;
             audioSource.Play();
-            DontDestroyOnLoad(audioSource.gameObject); // AudioSource objesini sahneler arası taşıyoruz
+            //DontDestroyOnLoad(audioSource.gameObject); 
         }
         else
         {
             Debug.LogError("Background music is not assigned in the inspector.");
         }
-        
-        if (audioSource.isPlaying)
-        {
-            Debug.Log("Ses çalıyor.");
-        }
-        else
-        {
-            Debug.Log("Ses çalmıyor.");
-        }
+
+        UpdateButtonVisibility();
     }
 
-    void Update()
-    {
-        if (audioSource.isPlaying)
-        {
-            Debug.Log("Music is playing at volume: " + audioSource.volume);
-        }
-        else
-        {
-            Debug.Log("Music is not playing.");
-        }
-    }
-    
     public void PlayMusic()
     {
         if (backgroundMusic != null && !audioSource.isPlaying)
         {
             audioSource.Play(); 
+            UpdateButtonVisibility(); 
         }
     }
 
@@ -62,6 +49,14 @@ public class SoundManager : MonoBehaviour
         if (audioSource.isPlaying)
         {
             audioSource.Stop(); 
+            UpdateButtonVisibility(); 
+        }
+    }
+
+    private void UpdateButtonVisibility()
+    {
+        muteButton.SetActive(audioSource.isPlaying); 
+        unmuteButton.SetActive(!audioSource.isPlaying); 
     }
 }
-}
+

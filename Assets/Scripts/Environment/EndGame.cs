@@ -7,6 +7,9 @@ public class EndGame : MonoBehaviour
 {
     public GameObject victoryPanel;
     public GameObject gameOverEndPanel;
+    public AudioSource src; 
+    public AudioClip victorySound;
+    public AudioClip failureSound;
     //ItemCounter itemCounter;
     
     void OnTriggerEnter(Collider other)
@@ -16,15 +19,26 @@ public class EndGame : MonoBehaviour
         
         if (player != null)
         {
-            if (itemCounter != null && itemCounter.NumberOfItems >= 300)
+            if (itemCounter != null && itemCounter.NumberOfItems >= 100)
             {
                 victoryPanel.SetActive(true);
+                victoryPanel.SetActive(true);
+                if (src != null && victorySound != null)
+                {
+                    src.clip = victorySound;
+                    src.Play();
+                }   
                 Time.timeScale = 0;
             }
         
             else
             {
                 gameOverEndPanel.SetActive(true);
+                if (src != null && failureSound != null)
+                {
+                    src.clip = failureSound;
+                    src.Play();
+                } 
                 Time.timeScale = 0;
             }
         }
