@@ -19,7 +19,7 @@ public class EndGame : MonoBehaviour
         
         if (player != null)
         {
-            if (itemCounter != null && itemCounter.NumberOfItems >= 100)
+            if (itemCounter != null && itemCounter.NumberOfItems >= 90)
             {
                 victoryPanel.SetActive(true);
                 victoryPanel.SetActive(true);

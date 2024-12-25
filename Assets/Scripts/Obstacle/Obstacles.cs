@@ -8,6 +8,10 @@ public class Obstacles : MonoBehaviour
     public AudioSource failureSound; 
     public AudioClip failureClip; 
     public AudioSource audioSource; 
+
+    public Animator animator; 
+    private bool isDead = false;
+
     void Start()
     {
         if (audioSource == null)
@@ -20,8 +24,13 @@ public class Obstacles : MonoBehaviour
     {
         Player player = other.GetComponent<Player>();
 
+        if (isDead) return;
+
         if (player != null)
         {
+            isDead = true;
+            animator.SetBool("isHit", true);
+            
             player.runSpeed = 0; 
             gameOverPanel.gameObject.SetActive(true); 
 
