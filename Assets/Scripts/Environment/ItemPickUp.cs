@@ -17,12 +17,13 @@ public class ItemPickUp : MonoBehaviour
             {
                 itemCounter.CollectedItem();
             }
-
             src.clip = itemSound;
             src.Play();
 
             gameObject.SetActive(false);
         }
     }
+
+    
 
 }

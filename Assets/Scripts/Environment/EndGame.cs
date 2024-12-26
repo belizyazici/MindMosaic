@@ -10,8 +10,10 @@ public class EndGame : MonoBehaviour
     public AudioSource src; 
     public AudioClip victorySound;
     public AudioClip failureSound;
-    //ItemCounter itemCounter;
-    
+
+    public Animator animator; 
+    private bool isDead = false;
+
     void OnTriggerEnter(Collider other)
     {
         Player player = other.GetComponent<Player>();
@@ -26,8 +28,9 @@ public class EndGame : MonoBehaviour
                 if (src != null && victorySound != null)
                 {
                     src.clip = victorySound;
-                    src.Play();
+                    src.Play();   
                 }   
+                // SEVİNÇ ANİM GELMELİ
                 Time.timeScale = 0;
             }
         
@@ -39,7 +42,10 @@ public class EndGame : MonoBehaviour
                     src.clip = failureSound;
                     src.Play();
                 } 
-                Time.timeScale = 0;
+                // DEATH ANIM GELMELİ
+                isDead = true;
+                animator.SetBool("isHit", true);
+                //Time.timeScale = 0;
             }
         }
         
