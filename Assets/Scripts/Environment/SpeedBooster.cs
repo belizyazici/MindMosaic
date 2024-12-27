@@ -17,7 +17,7 @@ public class SpeedBooster : MonoBehaviour
 
         if (player != null)
         {
-            player.runSpeed = player.runSpeed * 3;
+            player.runSpeed = player.runSpeed * 2;
             Debug.Log("Boosted speed: " + player.runSpeed);
 
             PlayBoosterSound();

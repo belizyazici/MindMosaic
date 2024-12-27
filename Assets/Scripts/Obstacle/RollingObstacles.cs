@@ -21,9 +21,6 @@ public class RollingObstacles : MonoBehaviour
         {
             
             transform.Translate(Vector3.right * direction * rollingSpeed * Time.deltaTime);
-
-            //transform.Rotate(Vector3.up * direction * rotationSpeed * Time.deltaTime, Space.Self);
-
             
             if (direction == 1 && transform.position.z > rightWallZ)
             {
