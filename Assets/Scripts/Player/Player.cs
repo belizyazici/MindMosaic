@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
@@ -18,7 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform _leftTransform;
     [SerializeField] private Transform _rightTransform;
 
-    private int desiredLane = 1; // 0- left 1 - middle 2 -right
+    private int desiredLane = 1; // 0- left 1 - middle 2 - right
     public float laneDistance = 4.0f;
 
     public AudioSource moveSoundSource; 
@@ -46,7 +44,8 @@ public class Player : MonoBehaviour
     {
         Jump();
 
-        if (Input.GetKeyDown(KeyCode.D))
+        // Sağ hareket (D veya Sağ Yön Tuşu)
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             desiredLane++;
             if (desiredLane == 3)
@@ -56,7 +55,8 @@ public class Player : MonoBehaviour
             PlayMoveSound(); 
         }
         
-        if (Input.GetKeyDown(KeyCode.A))
+        // Sol hareket (A veya Sol Yön Tuşu)
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             desiredLane--;
             if (desiredLane == -1)
@@ -93,7 +93,8 @@ public class Player : MonoBehaviour
         {
             verticalSpeed = -gravity * Time.deltaTime;
 
-            if (Input.GetKey(KeyCode.W))
+            // Zıplama (W veya Yukarı Yön Tuşu)
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
                 verticalSpeed = Mathf.Sqrt(2f * jumpSpeed * gravity);
                 PlayJumpSound(); 

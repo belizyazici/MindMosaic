@@ -7,6 +7,8 @@ public class ItemPickUp : MonoBehaviour
     public AudioSource src;
     public AudioClip itemSound;
 
+    [SerializeField] private bool isDoubleEffect = false; // x2 etkisi için flag
+
     private void OnTriggerEnter(Collider other)
     {
         Player player = other.GetComponent<Player>();
@@ -15,15 +17,17 @@ public class ItemPickUp : MonoBehaviour
             ItemCounter itemCounter = other.GetComponent<ItemCounter>();
             if (itemCounter != null)
             {
-                itemCounter.CollectedItem();
+                int multiplier = isDoubleEffect ? 2 : 1; // x2 kontrolü
+                itemCounter.CollectedItem(multiplier);
             }
-            src.clip = itemSound;
-            src.Play();
+
+            if (src != null && itemSound != null)
+            {
+                src.clip = itemSound;
+                src.Play();
+            }
 
             gameObject.SetActive(false);
         }
     }
-
-    
-
 }

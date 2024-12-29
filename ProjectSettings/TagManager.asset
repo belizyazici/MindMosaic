@@ -16,6 +16,7 @@ TagManager:
   - Level7
   - Level8
   - Level9
+  - CollectBooster
   layers:
   - Default
   - TransparentFX

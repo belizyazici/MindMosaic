@@ -164,6 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &13461560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -226,6 +227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &17809177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -444,6 +446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &25807457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -506,6 +509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &28010362
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -657,6 +661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &31218331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -719,6 +724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &34696441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -859,6 +865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &47848651
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1153,6 +1160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &81815060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1272,6 +1280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &88879433
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1334,6 +1343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &92586437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1579,6 +1589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &113117111
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1641,6 +1652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &114531727
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1781,6 +1793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &123470045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2256,6 +2269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &145621416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2657,6 +2671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &177941967
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2719,6 +2734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &178148687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2859,6 +2875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &179920166
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2997,6 +3014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &188173354
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3137,6 +3155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &196043577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3347,6 +3366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &206404120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3409,6 +3429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &207875111
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3550,6 +3571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &212503117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3612,6 +3634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &215883263
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3830,6 +3853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &220020327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3892,6 +3916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &225932522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3954,6 +3979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &231305970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4121,6 +4147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &238861842
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4183,6 +4210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &244095894
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4640,6 +4668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &263463290
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5197,6 +5226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &290865015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5598,6 +5628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &308060237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5660,6 +5691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &314717836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5722,6 +5754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &314779700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5862,6 +5895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &319045441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6158,6 +6192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &338591792
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6601,6 +6636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &362898471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6663,6 +6699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &365380127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6725,6 +6762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &366588206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6787,6 +6825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &368695930
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6849,6 +6888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &371480479
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6989,6 +7029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &373790460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7156,6 +7197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &383474128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7272,6 +7314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &391377428
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7412,6 +7455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &394658712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7474,6 +7518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &398649963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7536,6 +7581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &399096223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7793,6 +7839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &414886455
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7882,6 +7929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &429737696
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7944,6 +7992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &432088645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8141,6 +8190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &439349178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8203,6 +8253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &441305125
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8499,6 +8550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &448143047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8820,6 +8872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &458739241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9133,6 +9186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &464935921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9195,6 +9249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &471269835
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9411,6 +9466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &475513677
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9473,6 +9529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &479448464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9535,6 +9592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &481024245
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9717,6 +9775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &492059403
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9857,6 +9916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &497192640
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10153,6 +10213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &508281250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10215,6 +10276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &508421283
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10487,6 +10549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &527030506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10627,6 +10690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &530201487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10923,6 +10987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &545827946
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11063,6 +11128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &548744004
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11187,6 +11253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &561185621
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11510,6 +11577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &574143130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11717,6 +11785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &579410967
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11779,6 +11848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &579737036
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11919,6 +11989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &583336816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11981,6 +12052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &583810297
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12121,6 +12193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &583974924
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12344,6 +12417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &605879504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12406,6 +12480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &611950740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12662,82 +12737,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1263489938}
   m_SourcePrefab: {fileID: 100100000, guid: 47eccfdaaa8490246bb90d54bab6ccbd, type: 3}
---- !u!1001 &628434363
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1577738637}
-    m_Modifications:
-    - target: {fileID: 116602928760111245, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_Name
-      value: LargeRectangle
-      objectReference: {fileID: 0}
-    - target: {fileID: 521521221747233553, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.8158007
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8158
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.8158007
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 211.19978
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.8817286
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.3840001
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 116602928760111245, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1825504608}
-  m_SourcePrefab: {fileID: 100100000, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
 --- !u!1 &629791653 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 136300, guid: 47eccfdaaa8490246bb90d54bab6ccbd, type: 3}
@@ -12779,6 +12778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &629791657
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12998,6 +12998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &642074392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13019,33 +13020,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8254455, y: 1.7659367, z: 1.3345859}
   m_Center: {x: 0, y: -0.14509289, z: 0.68039525}
---- !u!1 &648224147 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 116602928760111245, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-  m_PrefabInstance: {fileID: 1304616240}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &648224148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 648224147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06bfb9cb7f9eb0e459927162afe32079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverPanel: {fileID: 1886119737}
-  failureSound: {fileID: 244135310}
-  failureClip: {fileID: 8300000, guid: ff5f85da24bc943d1abdc5760a22bc81, type: 3}
-  audioSource: {fileID: 1667802621}
-  animator: {fileID: 1061680788}
---- !u!4 &648224152 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-  m_PrefabInstance: {fileID: 1304616240}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &651165079 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5575499856111445736, guid: 50072fcf2457235478d55da4e38944e3, type: 3}
@@ -13092,6 +13066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &653654875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13232,6 +13207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &679664142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13321,6 +13297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &680939352
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13383,6 +13360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &682325292
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13523,6 +13501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &693753916
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13663,6 +13642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &700035141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13852,6 +13832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &713986232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13914,6 +13895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &715407015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13976,6 +13958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &725766010
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14353,6 +14336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &746361907
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14415,6 +14399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &749660381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14477,6 +14462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &753936609
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14576,73 +14562,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1965877199}
   m_SourcePrefab: {fileID: 100100000, guid: 47eccfdaaa8490246bb90d54bab6ccbd, type: 3}
---- !u!1001 &757080043
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1577738637}
-    m_Modifications:
-    - target: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 171.11978
-      objectReference: {fileID: 0}
-    - target: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.721729
-      objectReference: {fileID: 0}
-    - target: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.8759999
-      objectReference: {fileID: 0}
-    - target: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3427810136752427718, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7640794859089502171, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      propertyPath: m_Name
-      value: WoodenDog
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7640794859089502171, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1486064749}
-    - targetCorrespondingSourceObject: {fileID: 7640794859089502171, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1486064748}
-  m_SourcePrefab: {fileID: 100100000, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
 --- !u!1 &759073398 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 136300, guid: 47eccfdaaa8490246bb90d54bab6ccbd, type: 3}
@@ -14684,6 +14603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &759073402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14746,6 +14666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &759609128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15118,6 +15039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &765949829
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15180,6 +15102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &766529055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15242,6 +15165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &767506159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15460,6 +15384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &773969702
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15522,6 +15447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &774427796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15584,6 +15510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &778488932
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15802,6 +15729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &785095442
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16020,6 +15948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &794442384
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16082,6 +16011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &801390469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16144,6 +16074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &802520105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16206,6 +16137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &804993231
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16346,6 +16278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &806377008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16527,6 +16460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &811250375
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17451,6 +17385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &860688622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17513,6 +17448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &861649193
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17575,6 +17511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &862997493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17715,6 +17652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &865025334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17777,6 +17715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &881232812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17917,6 +17856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &890242862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18212,6 +18152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &907037136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18874,6 +18815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &950777992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19170,6 +19112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &964978169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19232,6 +19175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &965353904
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19294,6 +19238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &970846646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19512,6 +19457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &982015900
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19574,6 +19520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &985502189
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19714,6 +19661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &989079743
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19854,6 +19802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1004137685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19916,6 +19865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1005112167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20226,6 +20176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1016022320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20288,6 +20239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1018404658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20428,6 +20380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1026598959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20568,6 +20521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1030382428
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20755,6 +20709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1037944971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21177,6 +21132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1058416168
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21434,7 +21390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1061680788}
-  runSpeed: 7
+  runSpeed: 10
   jumpSpeed: 4
   gravity: 5
   _leftTransform: {fileID: 1370331203}
@@ -21797,6 +21753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1081233572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21859,6 +21816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1083206159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22075,6 +22033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1092560397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22215,6 +22174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1094612573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22355,6 +22315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1102367495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22417,6 +22378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1104065860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22557,6 +22519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1105615301
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22619,6 +22582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1108374652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22760,6 +22724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1110537639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22979,6 +22944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1121766992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23222,6 +23188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1132809190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23966,6 +23933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1160645965
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24106,6 +24074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1162990763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24168,6 +24137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1170806989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24308,6 +24278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1178004203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24370,6 +24341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1178321792
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24432,6 +24404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1182564551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24494,6 +24467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1182930898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24694,6 +24668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1190387618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24822,6 +24797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1200222897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24884,6 +24860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1203386488
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24946,6 +24923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1207075872
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25247,6 +25225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1212000679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25530,6 +25509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1221961983
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25748,6 +25728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1225712797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26085,6 +26066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1239972849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26147,6 +26129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1240861898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26287,6 +26270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1256839446
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26349,6 +26333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1259483366
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26411,6 +26396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1263489940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26551,6 +26537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1270088906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26691,6 +26678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1275510096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27031,6 +27019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1282657917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27171,6 +27160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1292213294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27260,6 +27250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1299990385
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27281,82 +27272,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8254455, y: 1.7659367, z: 1.3345859}
   m_Center: {x: 0, y: -0.14509289, z: 0.68039525}
---- !u!1001 &1304616240
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1577738637}
-    m_Modifications:
-    - target: {fileID: 116602928760111245, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_Name
-      value: LargeRectangle (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 521521221747233553, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.8158007
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.8158
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.8158007
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.9802237
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.8817286
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.3840001
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 116602928760111245, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 648224148}
-  m_SourcePrefab: {fileID: 100100000, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
 --- !u!1 &1312755730 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 136300, guid: 47eccfdaaa8490246bb90d54bab6ccbd, type: 3}
@@ -27398,6 +27313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1312755734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27621,6 +27537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1332058036
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27777,6 +27694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1336560657
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27839,6 +27757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1337164945
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28499,6 +28418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1374292164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28561,6 +28481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1374519010
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28623,6 +28544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1381959425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28685,6 +28607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1386262705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29192,6 +29115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1421110814
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29254,6 +29178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1421188510
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29439,6 +29364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1439317712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29657,6 +29583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1441485950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29797,6 +29724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1441829660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30015,6 +29943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1449775188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30077,6 +30006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1450990528
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30139,6 +30069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1451609187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30357,6 +30288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1459299349
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30817,6 +30749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1475636682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31036,49 +30969,6 @@ Transform:
   - {fileID: 362898468}
   m_Father: {fileID: 2046991522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1486064745 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7640794859089502171, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-  m_PrefabInstance: {fileID: 757080043}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1486064747 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 861547407971609206, guid: a8418a240607ae344a2d08cdd71d0728, type: 3}
-  m_PrefabInstance: {fileID: 757080043}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1486064748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486064745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06bfb9cb7f9eb0e459927162afe32079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverPanel: {fileID: 1886119737}
-  failureSound: {fileID: 244135310}
-  failureClip: {fileID: 8300000, guid: ff5f85da24bc943d1abdc5760a22bc81, type: 3}
-  audioSource: {fileID: 1667802621}
-  animator: {fileID: 1061680788}
---- !u!114 &1486064749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486064745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e78012817151b8f4b832c44629f8ea93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rollingSpeed: 5
-  rotationSpeed: 100
-  leftWallZ: -1.49
-  rightWallZ: 2.35
 --- !u!1001 &1486576542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31359,6 +31249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1506143108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31421,6 +31312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1509756255
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31637,6 +31529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1517399607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32018,6 +31911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1531342770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32112,6 +32006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1536398504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32279,6 +32174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1545555350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32341,6 +32237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1550103733
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32508,6 +32405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1555404655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32570,6 +32468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1556202581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32632,6 +32531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1556596162
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32770,6 +32670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1563345783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33007,8 +32908,6 @@ Transform:
   - {fileID: 1292956887}
   - {fileID: 935713051}
   - {fileID: 946198847}
-  - {fileID: 1825504607}
-  - {fileID: 648224152}
   - {fileID: 680150205}
   - {fileID: 1357637773}
   - {fileID: 1982636575}
@@ -33038,7 +32937,6 @@ Transform:
   - {fileID: 825482847}
   - {fileID: 1537433084}
   - {fileID: 1676888270}
-  - {fileID: 1486064747}
   - {fileID: 200822856}
   - {fileID: 2029163888}
   - {fileID: 379898652}
@@ -33184,6 +33082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1584217234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33273,6 +33172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1590589425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33335,6 +33235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1591223212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33502,6 +33403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1611434750
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33794,6 +33696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1625638793
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33856,6 +33759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1631549267
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33918,6 +33822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1632766611
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34058,6 +33963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1641324968
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34599,6 +34505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1682264610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34661,6 +34568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1684797927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34801,6 +34709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1688502082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35074,6 +34983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1703348593
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35136,6 +35046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1705158721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35225,6 +35136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1715244489
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35365,6 +35277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1715415072
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35505,6 +35418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1716961706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35766,6 +35680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1730754620
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35828,6 +35743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1736742245
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36012,6 +35928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1742088797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36306,6 +36223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1752855822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36567,6 +36485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1776118438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36629,6 +36548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1778513180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36769,6 +36689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1783993522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37107,6 +37028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1791121418
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37169,6 +37091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1799280377
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37231,6 +37154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1801494937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37293,6 +37217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1802137727
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37525,6 +37450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1807695581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37587,6 +37513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1809322236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37649,6 +37576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1817800740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37711,6 +37639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1818653163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37851,6 +37780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1824458026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37872,33 +37802,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8254455, y: 1.7659367, z: 1.3345859}
   m_Center: {x: 0, y: -0.14509289, z: 0.68039525}
---- !u!1 &1825504603 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 116602928760111245, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-  m_PrefabInstance: {fileID: 628434363}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1825504607 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 590462841037771646, guid: febf9a717e0afef43a1c8e1c34b915b6, type: 3}
-  m_PrefabInstance: {fileID: 628434363}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1825504608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825504603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06bfb9cb7f9eb0e459927162afe32079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverPanel: {fileID: 1886119737}
-  failureSound: {fileID: 244135310}
-  failureClip: {fileID: 8300000, guid: ff5f85da24bc943d1abdc5760a22bc81, type: 3}
-  audioSource: {fileID: 1667802621}
-  animator: {fileID: 1061680788}
 --- !u!1001 &1828153778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38018,6 +37921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1828450083
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38417,6 +38321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1839737424
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38479,6 +38384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1843602362
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38697,6 +38603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1850034740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38759,6 +38666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1865204232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38821,6 +38729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1868229335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38961,6 +38870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1870851616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39755,6 +39665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1903087533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39817,6 +39728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1903353299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40033,6 +39945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1911201232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40173,6 +40086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1913631598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40394,6 +40308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1929368566
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40588,6 +40503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1937648625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40956,6 +40872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1947722462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41101,6 +41018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1956802934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41241,6 +41159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1965877201
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41303,6 +41222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1966793504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41443,6 +41363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1973702086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41593,6 +41514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1981993089
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41760,6 +41682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1989899398
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41822,6 +41745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &1992936086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42480,6 +42404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2009427251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42542,6 +42467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2014733140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42680,6 +42606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2021068005
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42742,6 +42669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2023552227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43081,6 +43009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2042659015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43143,6 +43072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2042764206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43351,6 +43281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2048160138
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43511,7 +43442,7 @@ PrefabInstance:
       objectReference: {fileID: 1534500046}
     - target: {fileID: 6159965646279830227, guid: 79a0669a08b881048a158b3277cc12f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 168.66
+      value: 162.66
       objectReference: {fileID: 0}
     - target: {fileID: 6159965646279830227, guid: 79a0669a08b881048a158b3277cc12f3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -43675,6 +43606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2060945777
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43737,6 +43669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2064826538
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44033,6 +43966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2077100253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44381,6 +44315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2095932074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44421,6 +44356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2097889954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44666,6 +44602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2112135863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45436,6 +45373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2146032486
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45498,6 +45436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 244135310}
   itemSound: {fileID: 8300000, guid: fb5c285c2df3e3c499d85185274beae0, type: 3}
+  isDoubleEffect: 0
 --- !u!65 &2146136063
 BoxCollider:
   m_ObjectHideFlags: 0
