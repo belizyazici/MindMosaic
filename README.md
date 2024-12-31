@@ -11,7 +11,7 @@ In Mind Mosaic, you step into the shoes of a character who has lost their memori
 - Standard collectables increase your score by 1. <br>
 - Special collectables (marked differently) double their value and grant +2 points. <br>
 #### Obstacles <br>
-- Coming into contact with an obstacle will end the game and display a "Game Over" screen. <br>
+- Coming into contact with an obstacle will end the game. <br>
 - To win, the player must collect specific amount of items at each level and reach the end of the path. <br>
 
 ## How to Play
