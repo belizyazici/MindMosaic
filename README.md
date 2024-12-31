@@ -1,6 +1,6 @@
 # Mind Mosaic
 In Mind Mosaic, you step into the shoes of a character who has lost their memories and the cherished moments spent with loved ones. To reclaim these memories, the character embarks on a journey where they must collect items tied to specific individuals from their past. Each level represents a different person, and only by gathering the required number of items can the character unlock the memories associated with them. The game challenges players to navigate through paths filled with collectables and obstacles, balancing speed and precision.
-![Adsız tasarım (6)](https://github.com/user-attachments/assets/9f5e3b2f-5b18-4910-bd4c-6e382b1f51e6)
+![Adsız tasarım (7)](https://github.com/belizyazici/MindMosaic/blob/main/Ads%C4%B1z%20tasar%C4%B1m%20(7).png?raw=true)
 
 
 ## Game Mechanics
