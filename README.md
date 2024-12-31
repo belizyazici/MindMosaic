@@ -15,7 +15,7 @@ In Mind Mosaic, you step into the shoes of a character who has lost their memori
 - To win, the player must collect specific amount of items at each level and reach the end of the path. <br>
 
 ## How to Play
-Use WASD or arrow keys to control the player: <br>
+Use `W`, `A`, `S`, `D` or arrow keys to control the player: <br>
 - Move left and right to change lanes. <br>
 - Jump to dodge obstacles. <br>
 - Collect as many items as possible. <br>
